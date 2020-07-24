@@ -4,35 +4,176 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>HTML Email</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style type="text/css">
+body {
+   margin: 0;
+   padding: 0;
+   /* background-color: #f6f9fc; */
+}
+table {
+   border-spacing: 0;
+}
+td {
+   border: 0;
+}
+img {
+   border: 0;
+}
+a {
+   text-decoration: none;
+   color: white;
+   line-height: 15px;
+}
+.two-columns {
+   text-align: left;
+}
+.two-columns .column {
+width: 100%;
+max-width: 400px;
+display: inline-block;
+vertical-align: top;
+}
+.padding {
+   padding: 15px;
+}
+.two-columns .content {
+   font-size: 15px;
+   line-height: 12px;
+
+}
+
+  /* media queries */
+
+  @media screen and (max-width: 400px) {
+  }
+  @media screen and (min-width: 401px) and (max-width: 400px) {   
+   }
+   @media screen and (max-width: 768px) {    
+   }
+</style>
 </head>
 <body style="margin: 0; padding: 0;">
-    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <table align="center">
      <tr>
       <td>
-      <img style="padding: 30px 30px 30px 250px;" width="20%" src="./assets/logo.png" alt="logo">
+         <table width="100%" style="border-spacing: 0;">
+            <tr>
+               <td style="background-color: #f6f9fc;padding: 10px;text-align:center;">
+                  <a href="https://www.harrys.com"><img src="./assets/logo.png" width="180" alt="logo"></a>
+               </td>
+            </tr>
+         </table>
       </td>
      </tr>
      <tr>
-        <td> <img width="100%" src="./assets/hero.png" alt="hero"></td>
+        <td>
+           <a href="https://www.harrys.com"><img width="800"  align="center" src="./assets/hero.png" alt="hero"></a>
+         </td>
      </tr>
-     <tr bgcolor="263645" width="50%" height="300px" align="center">
+     <tr bgcolor="263645" max-width="400px" height="300px" align="center">
         <td >
-           <h3 style="margin: 0; font-family: Arial, Helvetica, sans-serif;">The Winter Winston Set</h3>
-           <p style="margin: 0; font-family: Arial, Helvetica, sans-serif;">It's official: the Winter Winston Set is our popular gift</br>
+           <h3 style="margin: 0; font-family: Arial, Helvetica, sans-serif; color: white;">The Winter Winston Set</h3>
+        </br>
+           <p style="margin: 0; padding: 2px; font-family: Arial, Helvetica, sans-serif; color: gray;">It's official: the Winter Winston Set is our popular gift</br>
          this Holiday. We're really excited for those lucky people on </br>
       your list. Thanks for making us a part of your holidays.</p>
         </br>
-        <p style="margin: 0; font-family: Arial, Helvetica, sans-serif;">Still need a gift? It's not too late.</p>
-        </td>
-     </tr>
-    </table>
-    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; color: gray;">Still need a gift? It's not too late.</p>
+      </br>
+      </br>
+      <p ><a style="margin: 0; font-family: Arial, Helvetica, sans-serif; color: white;" href="a">SHOP NOW</a></p>
+      </td>
+      </tr>
        <tr>
           <td>
-             <p></p>
-          </td>
-          <td></td>
+         <table bgcolor="#f6f9fc" width="100%" style="border-spacing: 0;">
+            <tr>
+               <td class="two-columns">
+                  <table class="column-1">
+                     <tr>
+                        <td class="padding">
+                           <table class="content">
+                              <tr>
+                                 <td>
+                                    <h5 style="font-family: Arial, Helvetica, sans-serif; color: grey; max-width: 400px;" >&#169 2015 HF Global, Inc. All Rights Reserved.</h5>
+                                    <p style="color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; max-width: 400px;">Harry's, H, Mammoth Design, Give a Shave, Truman, and HF </br>
+                                   are trademarks and/or registered trademarks of HF Global, Inc.</p>
+                                    </br>
+                                    <p style="max-width: 400px;">161 Avenue of the Americas, Floor 8, New York, NY, 10013</p>
+                                   </br>
+                                   <p style="max-width: 400px;">Unsubscribe</p>  
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td style="padding: 10px;">
+
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+
+                  <table class="column-1">
+                     <tr>
+                        <td class="padding">
+                           <table class="content">
+                              <tr>
+                                 <td>
+                                    <p style="font-family: Arial, Helvetica, sans-serif; color: gray; font-size: 10pt;">CONTACT
+                                    </br>
+                                       help@harrys.com
+                                    </br>
+                                      888 212 6844</p> 
+                                    </br>
+                                    <img style="padding: 10px 10px;" width="3%" src="/assets/icon-facebook.png" alt="logo">
+                                    <img style="padding: 10px 10px;" width="3%" src="/assets/icon-twitter.png" alt="hero">
+                                    <img style="padding: 10px 10px;" width="3%" src="/assets/icon-instagram.png" alt="hero">
+                                    <img style="padding: 10px 10px;" width="3%" src="/assets/icon-google-plus.png" alt="hero">
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td style="padding: 10px;">
+
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+         </table>
+             
+          <!-- </td>
+          <td style="text-align: left;">
+            <p style="font-family: Arial, Helvetica, sans-serif; color: gray; font-size: 10pt;">CONTACT</br>
+             help@harrys.com</br>
+            888 212 6844</p>
+         </td>
+         </tr>
+         <tr bgcolor="#f6f9fc" width="50%" height="200px" align="right">
+            <tr>
+               <td>
+               <img style="padding: 30px 30px 30px 250px;" width="5%" src="/assets/icon-facebook.png" alt="logo">
+               </td>
+              </tr>
+              <tr>
+                 <td> 
+                    <img style="padding: 30px 30px 30px 250px;" width="5%" src="/assets/icon-twitter.png" alt="hero">
+               </td>
+              </tr>
+              <tr>
+               <td> 
+                  <img style="padding: 30px 30px 30px 250px;" width="5%" src="/assets/icon-instagram.png" alt="hero">
+             </td>
+            </tr>
+            <tr>
+               <td> 
+                  <img style="padding: 30px 30px 30px 250px;" width="5%" src="/assets/icon-google-plus.png" alt="hero">
+             </td>
+            </tr>
        </tr>
-    </Table>
+    </Table> -->
    </body>
 </html>
